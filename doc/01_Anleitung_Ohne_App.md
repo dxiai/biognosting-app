@@ -64,9 +64,18 @@ Diese Daten ergeben sich direkt aus der Videodatei. Wichtig ist nur, dass bei de
 Die Metadaten können wir mit dem `exiftool` auf der Kommandozeile mit dem folgenden Befehl auslesen: 
 
 ```
-❯ exiftool -createdate -gpslatitude -gpslongitude -T -n  IMG_0877.MOV 
-2021:03:06 11:33:33	47.4753	9.687
+❯ exiftool -createdate -gpslatitude -gpslongitude -T -n -csv *.MOV       
+SourceFile,CreateDate,GPSLatitude,GPSLongitude
+IMG_0877.MOV,2021:03:06 11:33:33,47.4753,9.687
 ```
+
+Der folgende Befehl speichert eine Tabelle mit den Metadaten der Aufnahmen.
+
+```
+❯ exiftool -createdate -gpslatitude -gpslongitude -T -n -csv *.MOV > aufnahmen.csv 
+```
+
+Diese kann man dann in Excel nachbearbeiten und eine Spalte mit Diagnosen hinzufügen.
 
 ### Diagnosen erstellen
 
