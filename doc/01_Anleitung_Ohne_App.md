@@ -41,7 +41,7 @@ Wieder den Blickwinkel langsam wechseln.
 
 Erst jetzt die Aufnahme beenden. 
 
-Ein Video sollte ca. 1-3 Minuten lang sein. Das entspricht ungefähr 50-150 hochqualitativen Fotos.
+Ein Video sollte ca. 1-3 Minuten lang sein. Das entspricht ungefähr 50-150 hochqualitativen Fotos. Wir können zusätzliche Zwischenfotos "interpolieren". Diese Fotos haben aber nicht die gleiche Qualität. 
 
 ### Tools
 
